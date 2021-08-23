@@ -1,0 +1,38 @@
+.main-container {
+    margin-top: 3%;
+
+    h1 {
+        font-size: 3em;
+    }
+    .add-btn {
+        width: 100%;
+        font-size: 2em;
+    }
+}
+.memo {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1980px){
+    .memo {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 50%;
+    }
+  }
+@media screen and (max-width: 780px){
+    .memo {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 50%;
+    }
+  }
+@media screen and (max-width: 480px){
+    .memo {
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 50%;
+    }
+  }

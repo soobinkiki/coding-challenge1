@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import StickyNote from './components/StickyNote'
+import { Button } from '@material-ui/core';
+import React, { useState } from 'react'
+import './App.scss'
 
-function App() {
+export default function App () {
+
+    const [trigger, setTrigger] = useState(false)
+    const handleClick = () => {
+      setTrigger(true)
+    }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main-container">
+        {!trigger ?
+          <>
+            <h1 style={{ textAlign: "center"}}>Hope you have a wonderful day</h1>
+            <Button className="add-btn" onClick={() => handleClick()} color="primary">+ Please Add notes here</Button>
+          </>
+          : 
+          <div className="memo">
+            <StickyNote colors={["#90b7f0"]} />
+            <StickyNote colors={["#89e6ae"]} />
+            <StickyNote colors={["#f59392"]} />
+            <StickyNote colors={["#f0c890"]} />
+          </div>
+        }
     </div>
-  );
+  )
 }
-
-export default App;
