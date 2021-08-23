@@ -12,27 +12,26 @@
 .memo {
     display: flex;
     justify-content: space-evenly;
-    max-width: 100%;
+    // max-width: 100%;
 }
 
-@media screen and (max-width: 1980px){
-    .memo {
-        display: flex;
-        justify-content: space-evenly;
-        max-width: 50%;
+@media screen and (max-width: 1910px){
+    .react-stickies-wrapper {
+        width: 90%;
     }
   }
-@media screen and (max-width: 780px){
-    .memo {
-        display: flex;
-        justify-content: space-evenly;
-        max-width: 50%;
+@media screen and (max-width: 1536px){
+    .react-stickies-wrapper {
+        width: 80%;
     }
   }
-@media screen and (max-width: 480px){
-    .memo {
-        display: flex;
-        justify-content: space-evenly;
-        max-width: 50%;
+@media screen and (max-width: 1280px){
+    .react-stickies-wrapper {
+        width: 65%;
+    }
+  }
+@media screen and (max-width: 1098px){
+    .react-stickies-wrapper {
+        width: 55%;
     }
   }
