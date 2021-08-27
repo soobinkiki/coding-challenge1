@@ -1,4 +1,4 @@
-# Coding Challenge (Penseive AI)
+# Coding Challenge (Pensieve AI)
 
 ## Description
 Developed the stikcy-notes that everyone can use and handle their notes.
