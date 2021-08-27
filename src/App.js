@@ -9,7 +9,7 @@ export default function App () {
     const handleClick = () => {
       setTrigger(true)
     }
-``
+
   return (
     <div className="main-container">
         {!trigger ?
