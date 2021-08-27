@@ -14,7 +14,7 @@ export default function App () {
     <div className="main-container">
         {!trigger ?
           <>
-            <h1 style={{ textAlign: "center"}}>Penseieve AI Notes</h1>
+            <h1 style={{ textAlign: "center"}}>Pensieve AI Notes</h1>
             <Button className="add-btn" onClick={() => handleClick()} color="primary">+ Please Add notes here</Button>
           </>
           : 

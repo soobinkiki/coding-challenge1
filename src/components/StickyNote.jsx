@@ -34,7 +34,7 @@ class StickyNote extends Component {
     return (
       <div className="note-area-container">
         <form className="group-title" noValidate autoComplete="off">
-          <TextField id="standard-basic" label="Group Title" />  
+          <TextField id="standard-basic" label="Bucket Title" />  
         </form>
         <ReactStickies
           notes={this.state.notes}
