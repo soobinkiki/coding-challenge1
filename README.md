@@ -13,5 +13,5 @@ Developed the stikcy-notes that everyone can use and handle their notes.
 4. `npm start` Run this command to run the app (The URL should be http://localhost:3000/ unless you are not using the port 3000).
 
 ## Notes
-I couldn't complete the functionalities of creating/grouping the buckets since it's hard to customize with the pre-built React package for the sticky-notes ("react-stickies").
+I couldn't complete the functionalities of creating/grouping the buckets since it's hard to customize with the pre-built React package for the sticky-notes but everything else is working great.
 If I had more time, I wish I could start from scratch without using React package to be more flexible (To be honest, I was working on the internship project at the same time).
